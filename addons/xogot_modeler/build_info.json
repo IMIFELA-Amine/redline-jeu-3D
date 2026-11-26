@@ -1,0 +1,18 @@
+{
+  "buildDate": "2026-11-10",
+  "buildID": "e4263e7972222dc589f2d6bd5b37dfabf56b749951333c6723e6b47998443e18",
+  "channel": "beta",
+  "dirty": true,
+  "expiresAt": "2026-12-10T00:00:00Z",
+  "expiryDays": 30,
+  "minimumGodotVersion": "4.7",
+  "schemaVersion": 1,
+  "sourceRevisions": {
+    "modeler": "1effaa0fb3e4333bfc49c7fd24544852b8a274f1",
+    "swiftgodot": "ab9d5185195693e18f93d01e0c6e88b6a0c4db48",
+    "xogot": "ee1994d88bcc12d2d745a8c0b39c59cfa880ef38",
+    "xogotUI": "143ee1fbcf459d6af8bc4ef48a8090d8e78dac47"
+  },
+  "stable": false,
+  "version": "0.2.0-beta.2"
+}

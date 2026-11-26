@@ -1,0 +1,11 @@
+Model Information:
+* title:	Stairs
+* source:	https://sketchfab.com/3d-models/stairs-d52f1c4422294718ae66377128055939
+* author:	Ansh_Singla (https://sketchfab.com/www.poisonsting)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Stairs" (https://sketchfab.com/3d-models/stairs-d52f1c4422294718ae66377128055939) by Ansh_Singla (https://sketchfab.com/www.poisonsting) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ventilation
+* source:	https://sketchfab.com/3d-models/ventilation-fc5ba4b83bd047d09e398d277ecaad71
+* author:	Gertol (https://sketchfab.com/gertol0)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ventilation" (https://sketchfab.com/3d-models/ventilation-fc5ba4b83bd047d09e398d277ecaad71) by Gertol (https://sketchfab.com/gertol0) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,115 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://c3pqmrmnyw3rh"
+path="res://.godot/imported/modular_chainlink_fence_1k.gltf-483ddc9cf39c814feff02c2070a821f0.scn"
+
+[deps]
+
+source_file="res://proops/BARRIERE/modular_chainlink_fence_1k.gltf"
+dest_files=["res://.godot/imported/modular_chainlink_fence_1k.gltf-483ddc9cf39c814feff02c2070a821f0.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+mesh_library/use_node_names_as_mesh_names=false
+array_mesh/deduplicate_surfaces=true
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"nodes": {
+"PATH:modular_chainlink_fence": {
+"generate/physics": true,
+"physics/shape_type": 1
+},
+"PATH:modular_chainlink_fence_bar_bracket_01": {
+"import/skip_import": true
+},
+"PATH:modular_chainlink_fence_bar_bracket_02": {
+"import/skip_import": true
+},
+"PATH:modular_chainlink_fence_bar_bracket_03": {
+"import/skip_import": true
+},
+"PATH:modular_chainlink_fence_corner_inner": {
+"generate/physics": true,
+"physics/shape_type": 0
+},
+"PATH:modular_chainlink_fence_corner_outer": {
+"generate/physics": true,
+"physics/shape_type": 0
+},
+"PATH:modular_chainlink_fence_corner_support": {
+"import/skip_import": true
+},
+"PATH:modular_chainlink_fence_door_frame": {
+"generate/physics": true,
+"physics/shape_type": 1,
+"primitive/position": Vector3(1, 1, 0),
+"primitive/size": Vector3(2, 3, 0.2)
+},
+"PATH:modular_chainlink_fence_door_gate": {
+"physics/shape_type": 3
+},
+"PATH:modular_chainlink_fence_door_latch": {
+"physics/shape_type": 3
+},
+"PATH:modular_chainlink_fence_double": {
+"generate/physics": true,
+"physics/shape_type": 1
+},
+"PATH:modular_chainlink_fence_end_01": {
+"import/skip_import": true
+},
+"PATH:modular_chainlink_fence_end_02": {
+"import/skip_import": true
+},
+"PATH:modular_chainlink_fence_post": {
+"import/skip_import": true
+},
+"PATH:modular_chainlink_fence_post_bracket_01": {
+"import/skip_import": true
+},
+"PATH:modular_chainlink_fence_post_bracket_02": {
+"import/skip_import": true
+},
+"PATH:modular_chainlink_fence_post_bracket_03": {
+"import/skip_import": true
+},
+"PATH:modular_chainlink_fence_start_01_corner_01": {
+"import/skip_import": true
+},
+"PATH:modular_chainlink_fence_start_01_corner_02": {
+"import/skip_import": true
+},
+"PATH:modular_chainlink_post_middle": {
+"import/skip_import": true
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1
+gltf/texture_map_mode=1

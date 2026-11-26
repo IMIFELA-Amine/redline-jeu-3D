@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ventilation-Marmok'a
+* source:	https://sketchfab.com/3d-models/ventilation-marmoka-db23aa8b8d704fe5ab90a7b01da7c221
+* author:	JollanERX (https://sketchfab.com/JollanXD)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ventilation-Marmok'a" (https://sketchfab.com/3d-models/ventilation-marmoka-db23aa8b8d704fe5ab90a7b01da7c221) by JollanERX (https://sketchfab.com/JollanXD) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

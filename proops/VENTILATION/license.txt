@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ventilation
+* source:	https://sketchfab.com/3d-models/ventilation-c082be85a9b14d8991def67324939ec5
+* author:	Bluenoseddonkey (https://sketchfab.com/Bluenoseddonkey)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ventilation" (https://sketchfab.com/3d-models/ventilation-c082be85a9b14d8991def67324939ec5) by Bluenoseddonkey (https://sketchfab.com/Bluenoseddonkey) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

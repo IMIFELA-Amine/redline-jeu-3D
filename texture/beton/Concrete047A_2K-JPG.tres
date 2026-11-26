@@ -1,0 +1,22 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cone6eianyxwk"]
+
+[ext_resource type="Texture2D" uid="uid://dpsctvkh8srml" path="res://texture/beton/Concrete047A_2K-JPG_AmbientOcclusion.jpg" id="AmbientOcclusion"]
+[ext_resource type="Texture2D" uid="uid://gvr5ff7j1mha" path="res://texture/beton/Concrete047A_2K-JPG_Displacement.jpg" id="Displacement"]
+[ext_resource type="Texture2D" uid="uid://birduelyuwy1r" path="res://texture/beton/Concrete047A_2K-JPG_NormalGL.jpg" id="NormalGL"]
+[ext_resource type="Texture2D" uid="uid://cq4nedtcn8dyx" path="res://texture/beton/Concrete047A_2K-JPG_Roughness.jpg" id="Roughness"]
+
+[resource]
+albedo_color = Color(0.9490196, 0.9490196, 0.9372549, 1)
+roughness_texture = ExtResource("Roughness")
+roughness_texture_channel = 4
+normal_enabled = true
+normal_scale = 2.0
+normal_texture = ExtResource("NormalGL")
+ao_enabled = true
+ao_texture = ExtResource("AmbientOcclusion")
+ao_texture_channel = 4
+heightmap_enabled = true
+heightmap_deep_parallax = true
+heightmap_min_layers = 8
+heightmap_max_layers = 32
+heightmap_texture = ExtResource("Displacement")

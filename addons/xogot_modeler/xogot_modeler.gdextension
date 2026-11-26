@@ -1,0 +1,14 @@
+[configuration]
+
+entry_symbol = "xogot_modeler_entry"
+compatibility_minimum = "4.7"
+reloadable = false
+
+[libraries]
+
+; The Modeler only runs inside the editor; exported games never load it.
+linux.editor.arm64 = "res://addons/xogot_modeler/bin/linux/libXogotModeler.arm64.so"
+linux.editor.x86_64 = "res://addons/xogot_modeler/bin/linux/libXogotModeler.x86_64.so"
+; The runtime DLLs it needs sit next to it; Godot does not search PATH.
+windows.editor.x86_64 = "res://addons/xogot_modeler/bin/windows/x86_64/XogotModeler.dll"
+windows.editor.arm64 = "res://addons/xogot_modeler/bin/windows/arm64/XogotModeler.dll"

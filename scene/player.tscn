@@ -1,0 +1,57 @@
+[gd_scene format=3 uid="uid://b4w1qldypeh4l"]
+
+[ext_resource type="Script" uid="uid://6ppichc6addx" path="res://script/player.gd" id="1_xo3ru"]
+[ext_resource type="PackedScene" uid="uid://dif42gwlya1hs" path="res://modeles/Kachujin G Rosales.fbx" id="2_hjaqi"]
+[ext_resource type="AnimationLibrary" uid="uid://byhkenfe5yh45" path="res://animation/CLIMB/Climb.res" id="3_2fvbb"]
+[ext_resource type="AnimationLibrary" uid="uid://cqb040n006uxv" path="res://animation/RUN/FastRun.fbx" id="3_oh5ij"]
+[ext_resource type="AnimationLibrary" uid="uid://dgo4e4doyj0hp" path="res://animation/IDLE/Idle.fbx" id="4_hp4bs"]
+[ext_resource type="AnimationLibrary" uid="uid://beoru1w4cwsme" path="res://animation/JUMP/Jump.fbx" id="5_g2vtq"]
+[ext_resource type="AnimationLibrary" uid="uid://cjbe8g0j4xk2o" path="res://animation/WALK/Walking.fbx" id="6_2fvbb"]
+[ext_resource type="AnimationLibrary" uid="uid://b2ag4cicsuo6q" path="res://animation/SLIDE/Slide.res" id="6_hp4bs"]
+[ext_resource type="AnimationLibrary" uid="uid://cegw4yn5p7hts" path="res://animation/WALL_RUN/WallRun.res" id="8_g2vtq"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_2fwfx"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_aff65"]
+
+[node name="Player" type="CharacterBody3D" unique_id=546314594]
+script = ExtResource("1_xo3ru")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=601834208]
+visible = false
+shape = SubResource("CapsuleShape3D_2fwfx")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=897516292]
+transform = Transform3D(0.99998474, 0.004946025, -0.002476589, -0.0042664604, 0.97463423, 0.22376329, 0.0035205071, -0.22374931, 0.97464037, 0, 0.71, -0.357)
+fov = 90.0
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1376840644]
+visible = false
+mesh = SubResource("CapsuleMesh_aff65")
+
+[node name="Kachujin G Rosales" parent="." unique_id=1014086278 instance=ExtResource("2_hjaqi")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, -1, 0)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1110989227]
+root_node = NodePath("../Kachujin G Rosales")
+libraries/Climb = ExtResource("3_2fvbb")
+libraries/FastRun = ExtResource("3_oh5ij")
+libraries/Idle = ExtResource("4_hp4bs")
+libraries/Jump = ExtResource("5_g2vtq")
+libraries/Slide = ExtResource("6_hp4bs")
+libraries/Walking = ExtResource("6_2fvbb")
+libraries/WallRun = ExtResource("8_g2vtq")
+autoplay = &"Idle/mixamo_com"
+
+[node name="Timer" type="Timer" parent="." unique_id=1149214163]
+one_shot = true
+
+[node name="RayHaut" type="RayCast3D" parent="." unique_id=221215336]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.8, 0)
+target_position = Vector3(0, 0, -1)
+
+[node name="RayBas" type="RayCast3D" parent="." unique_id=1075809810]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.9, 0)
+target_position = Vector3(0, 0, -1)
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

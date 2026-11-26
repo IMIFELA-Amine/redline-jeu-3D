@@ -1,0 +1,100 @@
+XOGOT MODELER BETA LICENSE
+Version 1.0
+
+Copyright (c) 2026 Xibbon Inc. All rights reserved.
+
+This license applies to the Xogot Modeler addon and accompanying
+Xibbon-provided software and documentation (the "Software").
+
+1. Permission to use
+
+Xibbon Inc. grants you a non-exclusive, non-transferable, royalty-free
+license to install and use this beta Software to create and edit content
+for personal, educational, and commercial purposes during the applicable
+beta period.
+
+You may make backup copies and copy the Software within your organization.
+Your employees and contractors may use it on your behalf under these
+terms. You may modify supplied source files for your own internal use.
+
+2. Restrictions
+
+Except as expressly permitted by this license, applicable law, or an
+applicable third-party license, you may not sell, sublicense, publish,
+redistribute, or otherwise provide the Software or modified versions
+to third parties.
+
+You must preserve copyright, license, and other proprietary notices.
+
+Ownership of the Software remains with Xibbon Inc. and its licensors.
+Rights not expressly granted are reserved.
+
+3. Your content
+
+Xibbon Inc. claims no ownership of meshes, models, scenes, or other content
+you create using the Software.
+
+You may use, modify, publish, distribute, and sell your content, including
+in commercial games and asset packs, without paying royalties to Xibbon
+Inc. or providing attribution to Xogot Modeler.
+
+These permissions do not authorize redistribution of the Software itself
+or override rights in third-party material included in your content.
+
+Your rights to content lawfully created using the Software continue after
+the beta expires or this license terminates.
+
+4. Beta period
+
+This Software is a prerelease beta. Each build expires 30 days after its
+build date, not its installation date. The exact expiration is recorded
+in the accompanying BUILD.txt file.
+
+Your permission to use that build ends at its expiration. Continued use
+of the Modeler requires a newer, unexpired build or a separately licensed
+release.
+
+Beta builds may contain defects, change without compatibility guarantees,
+or become unavailable. Xibbon Inc. does not promise further beta builds,
+updates, support, or a final release.
+
+5. Future releases
+
+This license applies only to the beta build supplied with it. Future
+versions may require payment and may be offered under different terms.
+
+Participation in the beta creates no obligation to purchase a future
+release and no entitlement to a free commercial license.
+
+6. Third-party components
+
+Third-party components remain governed by their respective licenses.
+See THIRD_PARTY_NOTICES.txt for their notices and license texts.
+
+Nothing in this license limits permissions granted under those licenses.
+If there is a conflict concerning a third-party component, that
+component's license controls.
+
+7. Warranty and liability
+
+To the fullest extent permitted by applicable law, the Software is
+provided "as is" and "as available", without warranties of any kind,
+including warranties of merchantability, fitness for a particular
+purpose, and non-infringement.
+
+To the fullest extent permitted by applicable law, Xibbon Inc. and its
+licensors are not liable for indirect or consequential damages, lost
+profits, lost data, or business interruption arising from use of or
+inability to use the Software.
+
+Nothing in this license excludes rights, warranties, or liabilities
+that applicable law does not permit to be excluded.
+
+8. Termination
+
+This license terminates if you materially breach its terms. Upon
+termination, you must stop using the Software and delete your copies,
+except where retention is required by law.
+
+Termination does not affect your rights under Section 3 or under
+applicable third-party licenses.

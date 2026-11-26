@@ -1,0 +1,12 @@
+Xogot Modeler (beta)
+Version: 0.2.0-beta.2
+Build: e4263e7972222dc589f2d6bd5b37dfabf56b749951333c6723e6b47998443e18
+Built: 2026-11-10
+Works until: 2026-12-09 (UTC)
+Expires: 2026-12-10T00:00:00Z
+Asset Store Stable: false
+Modified sources: yes
+modeler: 1effaa0fb3e4333bfc49c7fd24544852b8a274f1
+swiftgodot: ab9d5185195693e18f93d01e0c6e88b6a0c4db48
+xogot: ee1994d88bcc12d2d745a8c0b39c59cfa880ef38
+xogotUI: 143ee1fbcf459d6af8bc4ef48a8090d8e78dac47

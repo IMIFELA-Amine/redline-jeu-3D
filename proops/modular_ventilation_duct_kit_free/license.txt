@@ -1,0 +1,11 @@
+Model Information:
+* title:	Modular Ventilation Duct Kit Free
+* source:	https://sketchfab.com/3d-models/modular-ventilation-duct-kit-free-d4e35aa0424a43ec9f34d7f8341236a0
+* author:	AMMediaGames (https://sketchfab.com/AMMediaGames)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Modular Ventilation Duct Kit Free" (https://sketchfab.com/3d-models/modular-ventilation-duct-kit-free-d4e35aa0424a43ec9f34d7f8341236a0) by AMMediaGames (https://sketchfab.com/AMMediaGames) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,20 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dxwabk43fcexa"]
+
+[ext_resource type="Texture2D" uid="uid://d0ajphek706t6" path="res://texture/facade_2/Window_02_baseColor_2k.png" id="1_4l78y"]
+[ext_resource type="Texture2D" uid="uid://cgwmkgfv3borh" path="res://texture/facade_2/Window_02_ambientOcclusion_2k.png" id="2_47snn"]
+[ext_resource type="Texture2D" uid="uid://dhqnarslweiaa" path="res://texture/facade_2/Window_02_metallic_2k.png" id="3_m5rg8"]
+[ext_resource type="Texture2D" uid="uid://3ha8v8uaykbj" path="res://texture/facade_2/Window_02_normal_gl_2k.png" id="4_ikxal"]
+[ext_resource type="Texture2D" uid="uid://dckneis81sqb4" path="res://texture/facade_2/Window_02_roughness_2k.png" id="5_lt7rq"]
+
+[resource]
+albedo_texture = ExtResource("1_4l78y")
+metallic = 1.0
+metallic_texture = ExtResource("3_m5rg8")
+roughness_texture = ExtResource("5_lt7rq")
+emission_enabled = true
+emission_energy_multiplier = 3.23
+emission_texture = ExtResource("1_4l78y")
+normal_enabled = true
+normal_texture = ExtResource("4_ikxal")
+ao_enabled = true
+ao_texture = ExtResource("2_47snn")

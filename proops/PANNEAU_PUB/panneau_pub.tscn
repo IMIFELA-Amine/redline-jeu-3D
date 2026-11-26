@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cjuhba6fceej7"]
+
+[ext_resource type="PackedScene" uid="uid://cb6wbl8uricn2" path="res://proops/PANNEAU_PUB/panneau_pub.gltf" id="1_yjvtf"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_saxtv"]
+albedo_color = Color(0.9490196, 0.6039216, 0.21960784, 1)
+
+[node name="Sketchfab_Scene" unique_id=646034309 instance=ExtResource("1_yjvtf")]
+
+[node name="Object_4" parent="Sketchfab_model/root/GLTF_SceneRootNode/Plane_2" parent_id_path=PackedInt32Array(1833859717) index="0" unique_id=1620808309]
+surface_material_override/0 = SubResource("StandardMaterial3D_saxtv")

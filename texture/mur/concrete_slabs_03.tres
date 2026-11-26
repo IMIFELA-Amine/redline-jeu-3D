@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://gk3mkwfnamk5"]
+
+[ext_resource type="Texture2D" uid="uid://c265wejuw0a15" path="res://texture/mur/concrete_slabs_03_basecolor_2k.png" id="1_p7thv"]
+[ext_resource type="Texture2D" uid="uid://djeitr01mooer" path="res://texture/mur/concrete_slabs_03_ambientocclusion_2k.png" id="2_pbv5y"]
+[ext_resource type="Texture2D" uid="uid://cbtxr4j5b21sn" path="res://texture/mur/concrete_slabs_03_metallic_2k.png" id="3_tur7a"]
+[ext_resource type="Texture2D" uid="uid://cyckpdmbjr8ib" path="res://texture/mur/concrete_slabs_03_normal_gl_2k.png" id="4_xlff0"]
+[ext_resource type="Texture2D" uid="uid://dufc70h6076j1" path="res://texture/mur/concrete_slabs_03_roughness_2k.png" id="5_j2gi2"]
+
+[resource]
+albedo_texture = ExtResource("1_p7thv")
+metallic = 1.0
+metallic_texture = ExtResource("3_tur7a")
+roughness_texture = ExtResource("5_j2gi2")
+normal_enabled = true
+normal_texture = ExtResource("4_xlff0")
+ao_enabled = true
+ao_texture = ExtResource("2_pbv5y")
